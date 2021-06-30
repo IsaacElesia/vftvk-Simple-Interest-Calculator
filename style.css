@@ -1,5 +1,5 @@
 body {
-	/* box-sizing: border-box; */
+	box-sizing: border-box;
 	background-color: black;
 	font-family: arial;
 	color: white;
@@ -8,12 +8,13 @@ body {
 h1 {
 	color: grey;
 	font-family: verdana;
+	font-size: 35px;
 }
 
 .maindiv {
 	background-color: white;
 	color: black;
-	width: 500px;
+	width: 550px;
 	padding: 20px;
 	border-radius: 25px;
 	margin: 0 auto;
@@ -24,7 +25,7 @@ h1 {
 }
 
 .calculation {
-	width: 70%;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -36,7 +37,7 @@ button {
 
 label {
 	display: inline-block;
-	width: 100px;
+	width: 120px;
 }
 
 footer {
