@@ -1,4 +1,34 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+	box-sizing: border-box;
+	background-color: black;
+	font-family: arial;
+	color: white;
+}
 
+h1 {
+	color: grey;
+	font-family: verdana;
+}
 
+.maindiv {
+	background-color: white;
+	color: black;
+	width: 300px;
+	padding: 20px;
+	border-radius: 25px;
+	margin: 0 auto;
+}
+
+.num {
+	background-color: yellow;
+}
+
+input,
+select,
+button {
+	margin-bottom: 0.5rem;
+}
+
+footer {
+	margin-top: 1rem;
+}
