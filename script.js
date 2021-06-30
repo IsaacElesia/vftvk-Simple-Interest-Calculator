@@ -26,5 +26,5 @@ function compute() {
 // Update the text of span element with id = rate_val
 function updateRate() {
 	var rateval = document.getElementById('rate').value;
-	document.getElementById('rate_val').innerText = rateval;
+	document.getElementById('rate_val').innerText = `${rateval}%`;
 }
